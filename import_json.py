@@ -5,8 +5,8 @@ from datetime import datetime
 import zipfile
 import shutil
 
-JSON_FILE = "" # Path to the Snapchat JSON file you downloaded
-OUTPUT_DIR = "" # Where you want your videos/images to be saved
+JSON_FILE = "mydata.json" # Path to the Snapchat JSON file you downloaded
+OUTPUT_DIR = "output.json" # Where you want your videos/images to be saved
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 existing_files = set(os.listdir(OUTPUT_DIR))
